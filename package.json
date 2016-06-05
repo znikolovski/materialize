@@ -3,7 +3,7 @@
   "description": "Builds Materialize distribution packages",
   "author": "Alvin Wang, Alan Chang",
   "url": "http://materializecss.com/",
-  "version": "0.97.6",
+  "version": "0.97.7",
   "main": "bin/materialize.js",
   "license": "MIT",
   "repository": {
@@ -42,7 +42,8 @@
     "jasmine-jquery": "^2.1.1",
     "jquery": "^2.1.4",
     "node-sass": "^3.4.2",
-    "phantomjs": "^1.9.18"
+    "phantomjs": "^1.9.18",
+    "grunt-docco": "^0.4.0"
   },
   "scripts": {
     "test": "grunt travis --verbose"
