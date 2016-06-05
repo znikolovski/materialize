@@ -60,7 +60,15 @@ module.exports = function(grunt) {
       }
     },
 
-
+    //Docco plugin
+    docco: {
+      debug: {
+        src: ['js/*.js'],
+        options: {
+          output: 'docs/'
+        }
+      }
+    },
 
     //  Sass
     sass: {                              // Task
@@ -357,6 +365,9 @@ module.exports = function(grunt) {
       temp: {
         src: [ 'temp/' ]
       },
+      bin: {
+        src: ['bin/']
+      }
     },
 
     //  Jade
@@ -599,6 +610,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-remove-logging');
   grunt.loadNpmTasks('grunt-browser-sync');
   grunt.loadNpmTasks('grunt-contrib-jasmine');
+  grunt.loadNpmTasks('grunt-docco');
 
   grunt.loadNpmTasks('grunt-postcss');
   // define the tasks
