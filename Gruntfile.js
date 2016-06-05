@@ -11,7 +11,8 @@ module.exports = function(grunt) {
     jasmine: {
       components: {
 	src: [
-          'bin/materialize.js'
+          'bin/materialize.js',
+          'js/*.js'
         ],
         options: {
           vendor: [
@@ -22,6 +23,10 @@ module.exports = function(grunt) {
           specs: 'tests/spec/**/*Spec.js',
           helpers: 'tests/spec/helper.js',
           keepRunner : true,
+          junit: {
+              path: 'bin/report/coverage/junit',
+              consolidate: true
+          },
           template: require('grunt-template-jasmine-istanbul'),
           templateOptions: {
             coverage: 'bin/report/coverage/coverage.json',
