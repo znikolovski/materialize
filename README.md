@@ -7,7 +7,7 @@
 
 ### Current Version : v0.99.0
 
-## Hey Tom
+## Hey guys
 
 ## Sass Requirements:
 - Ruby Sass 3.3+, LibSass 0.6+
