@@ -5,7 +5,7 @@
 
 [Materialize](http://materializecss.com/), a CSS Framework based on material design
 
-### Current Version : v0.97.7
+### Current Version : v0.99.0
 
 ## Hey Tom
 
