@@ -1,6 +1,7 @@
 (function ($) {
   $(document).ready(function() {
-
+    
+    // Handle a click event on a card component
     $(document).on('click.card', '.card', function (e) {
       if ($(this).find('> .card-reveal').length) {
         if ($(e.target).is($('.card-reveal .card-title')) || $(e.target).is($('.card-reveal .card-title i'))) {

@@ -66,6 +66,7 @@
       });
     };
 
+    // Handle events
     this.handleEvents = function(){
       var SELS = self.SELS;
 
