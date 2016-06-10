@@ -70,7 +70,9 @@ module.exports = function(grunt) {
       debug: {
         src: ['js/*.js'],
         options: {
-          output: 'docs/'
+          output: 'docs/',
+          template: 'node_modules/liberty-global-docco-theme/dist/docco.jst',
+          css: 'node_modules/liberty-global-docco-theme/dist/docco.css'
         }
       }
     },
